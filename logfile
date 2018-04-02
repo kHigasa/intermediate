@@ -3,3 +3,7 @@
 2018-03-30 11:04:45.209 JST [25943] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2018-03-30 11:04:45.231 JST [25944] LOG:  database system was shut down at 2018-03-30 11:04:28 JST
 2018-03-30 11:04:45.244 JST [25943] LOG:  database system is ready to accept connections
+2018-04-01 00:51:00.818 JST [25943] LOG:  received smart shutdown request
+2018-04-01 00:51:00.823 JST [25943] LOG:  worker process: logical replication launcher (PID 25951) exited with exit code 1
+2018-04-01 00:51:00.823 JST [25945] LOG:  shutting down
+2018-04-01 00:51:00.847 JST [25943] LOG:  database system is shut down
