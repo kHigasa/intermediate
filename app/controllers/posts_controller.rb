@@ -6,8 +6,8 @@ class PostsController < ApplicationController
   end
 
   def new
-    @branch = parama[:branch]
-    @category = Category.where(branch: @branch)
+    @branch = params[:branch]
+    @categories = Category.where(branch: @branch)
     @post = Post.new
   end
 
